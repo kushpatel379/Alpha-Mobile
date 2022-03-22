@@ -1,0 +1,494 @@
+/* body{
+    height: 200px !important;
+} */
+
+#mainPageColor{
+    position: absolute;
+    margin-left: -8px;
+    background-color: rgb(73, 190, 183);
+    color: rgb(73, 190, 183);
+    height: 94px;
+    width: 100%;
+    /* z-index: -1; */
+}
+
+#search{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 100px;
+    /* margin-bottom: 25px !important; */
+    height: 56px;
+    width: 400px;
+    border-radius: 35px;
+    z-index: 1;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    
+}
+
+#name{
+    color: black;
+    font-size: 28px;
+    margin-left: 1000px;
+    margin-top: -50px;
+    /* z-index: 1; */
+}
+
+/* #searchdiv{
+    margin-top: 21px;
+
+} */
+
+#logoButton{
+    /* background:url(../Images/hop2itlogo.png) no-repeat;
+    position:absolute;
+    cursor:pointer;
+    border:none;
+    width: 160;
+    height: 55px;
+    z-index: -1; */
+    background-color: rgb(73, 190, 183);
+    border: none;
+
+}
+
+#logo{
+    /* background-color: rgb(73, 190, 183); */
+    margin-top: 21px;
+    margin-left: 96px;
+    height: 55px;
+    width: 160px;
+    cursor: pointer;
+}
+
+#notifications{
+    position:absolute;
+    margin-top: -37px;
+    margin-left: -37px;
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+    z-index: -1;
+}
+
+
+
+#message{
+    position: absolute;
+    margin-top: -37px;
+    margin-left: -37px;
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+    z-index: -1;
+
+}
+
+#dropdown{
+    position: absolute;
+    margin-top: -37px;
+    margin-left: -37px;
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+    z-index: -1;    /*puts the image behind*/
+
+}
+/* #dropdownLast{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 1125px;
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+
+} */
+
+/* #logoutDropdown{
+    position:absolute;
+    margin-top: -82px;
+    margin-left: 270px;
+} */
+
+
+
+
+.dropbutton {
+    position:absolute;
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 75px;
+    width: 75px;
+    margin-top: -82px;
+    margin-left: 1375px;
+    border-radius: 37px;
+    /* z-index: 1; */
+    /* visibility:collapse; */
+    /* opacity: 0.5 */
+  }
+  
+  .dropbutton:hover, .dropbutton:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdownLast {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    margin-left: 1178px;
+    margin-top: -110px !important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdownLast a:hover {background-color: #ddd;}
+  
+
+  #logout{
+      float:right;
+      font-weight: bold;
+      font-size: 25px;
+      margin-top: 120px;
+      margin-right: 30px;
+      padding: 10px;
+      padding-left: 25px;
+      padding-right: 25px;
+      border-radius: 20px;
+      border-radius: 20px;
+      background-color: rgb(226,240,255);
+      box-shadow: 0px 2px 2px 3px rgba(1, 1, 1, 0.219);
+  }
+
+  #logout:hover{
+      background-color: rgb(157, 193, 231) ;
+  }
+
+  #cancel{
+      float:right;
+      font-size: 25px;
+      font-weight: bold;
+      font-weight: bold;
+      margin-top: 120px;
+      margin-right: 50px;
+      padding: 10px;
+      border-radius: 20px;
+      padding-left: 25px;
+      padding-right: 25px;
+      box-shadow: 0px 2px 2px 3px rgba(1, 1, 1, 0.219);
+  }
+
+
+
+.messageButton {
+    position:absolute;
+    background-color: #db349b;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 75px;
+    width: 75px;
+    margin-top: -82px;
+    margin-left: 1290px;
+    border-radius: 37px;
+    /* z-index: 1; */
+    /* visibility:collapse; */
+}
+
+.dropdownMiddle {
+    position: relative;
+    display: inline-block;
+}
+
+.message-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    margin-left: 915px;
+    margin-top: 147px !important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+   
+.message-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#messageBar{
+    position: absolute;
+    text-align: center;
+    background-color: rgb(248, 244, 244);
+    width: 272px;
+    height: 60px;
+}
+
+#goBack{
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    margin-left: -136px;
+}
+
+#goBack:hover{
+    cursor: pointer;
+}
+
+#friend{
+    position: absolute;
+    color: black;
+    font-size: 36px;
+    margin-left: 60px;
+    margin-top: 8px;
+    
+}
+
+#messageBox{
+    position: absolute;
+    text-align: center;
+    background-color: rgb(248, 244, 244);
+    width: 272px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+#searchMessages{
+    font-size: 22px;
+    position: absolute;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: -136px;
+    width: 266px;
+    height: 46px;
+    border: 1px solid black;
+}
+
+#friend1{
+    /* color: black; */
+    background-color: rgb(222,222,222);
+    position: absolute;
+    margin-top: 110px;
+    /* margin-left: 100px; */
+    width: 272px;
+    height: 80px;
+}
+
+#friendOne{
+    color: black;
+    font-size: 24px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+#dateOne{
+    font-size: 18px;
+    color: black;
+    margin-top: -50px;
+    margin-left: 200px;
+}
+
+#textBox{
+    position: absolute;
+    background-color: rgb(220, 220, 220);
+    margin-left: 272px;
+    height: 450px;
+    width: 328px;
+
+}
+
+#typeMessage{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    margin-left: 272px;
+    margin-top: 396px;
+    border: 1px solid black;
+}
+
+#send{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    margin-left: 540px;
+    margin-top: 398px;
+}
+
+#send:hover{
+    cursor: pointer;
+}
+
+
+#compose{
+    position: absolute;
+    margin-left: 85px;
+    height: 60px;
+    width: 60px;
+}
+
+#compose:hover{
+    cursor: pointer;
+
+}
+
+
+.notificationsButton {
+    position:absolute;
+    background-color: #34db66;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 75px;
+    width: 75px;
+    margin-top: -82px;
+    margin-left: 1205px;
+    border-radius: 37px;
+    /* z-index: 1; */
+    /* visibility:collapse; */
+}
+
+.dropdownFirst {
+    position: relative;
+    display: inline-block;
+}
+
+.notification-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 650px;
+    margin-left: 1165px;
+    margin-top: -82px !important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /* visibility: hidden; */
+    border-radius: 10px;
+}
+
+#secondBox{
+    background-color: red;
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    margin-left: 0px;
+    margin-top: 50px !important;
+}
+
+#notificationsTab{
+    position: absolute;
+    font-size: 20px;
+    text-decoration: underline pink;
+    margin-top: 1px;
+    margin-left: 4px;
+}
+
+#exitNoti{
+    position: absolute;
+    height:35px;
+    width: 35px;
+    margin-top: 1px;
+    margin-left: 312px;
+}
+
+#exitNoti:hover{
+    cursor: pointer;
+}
+   
+.notification-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+#online{
+    /* position: absolute; */
+    font-size: 36px;
+    color: black;
+    margin-top: 275px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#verticalLineLeft{
+    position: absolute;
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+    height: 585px;
+    margin-left: 300px;
+    margin-top: -340px !important;
+}
+
+#verticalLineRigth{
+    position: absolute;
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+    height: 585px;
+    margin-left: 1200px;
+    margin-top: -340px !important;
+    
+}
+
+#horizontalLineLeft{
+    position: absolute;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.25);
+    width: 255px;
+    margin-left: 15px;
+    margin-top: -10px !important;
+}
+
+#horizontalLineMiddle{
+    position:absolute;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.55);
+    width: 900px;
+    margin-left: 300px;
+    margin-top: 80px !important;
+}
+
+#invite{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 1050px;
+}
+
+#inviteButton{
+    background-color: rgb(226,240,255);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+
+#inviteButton:hover{
+    cursor: pointer;
+}
+  
+.show {
+    display: block;
+}

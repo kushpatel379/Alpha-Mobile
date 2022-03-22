@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Main Page </title>
+  <link href="./CSS/mainpage.css" rel="stylesheet">    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    
+</head>
+<body>
+   <div id = "mainPageColor">
+       <div id = "searchBar"> 
+           <button id = "logoButton"> <img id = "logo" src = "Images/hop2itlogo.png"> </button>     <!--logo button-->
+
+           <!-- <input id ="logoButton" type="submit" value=""> -->
+
+           <!-- <div id = "searchdiv"> -->
+                <input id = "search" type = "text" placeholder="Search Hop2it">
+           <!-- </div> -->
+           <!-- <img id = "userPic" src = ""> -->
+           <p id = "name"> Name </p>
+           <!-- <img id = "notifications" src = "Images/notifications.png"> -->
+
+           <!-- <div class = "dropdownMiddle">
+             <button onclick = "messageDropdown()" class = "messageButton"> <img id = "message" src = "Images/message.png"> </button>
+             <div id = "messageInfo" class = "message-content">
+               <p id = "friend"> Bob </p>
+             </div>
+           </div> -->
+
+           <div class="dropdownFirst">
+            <button onclick = "notificationsDropdown()" class = "notificationsButton"> <img id = "notifications" src = "Images/notifications.png"> </button>
+            <div id="notificationInfo" class="notification-content">
+              <!-- <p id = "friend"> Notifications </p> -->
+              <!-- <div id = "secondBox">
+
+              </div> -->
+              <p id = "notificationsTab"> Notifications </p>
+              <img id = "exitNoti" src = "Images/exit.png">
+            </div>
+
+            <!-- <div id = "secondBox">
+                
+            </div> -->
+           </div>
+
+
+           <div class="dropdownMiddle">
+            <button onclick = "messageDropdown()" class = "messageButton"> <img id = "message" src = "Images/message.png"> </button>
+            <div id="messageInfo" class="message-content">
+              <div id = "messageBar"> 
+                  <img id = "goBack" src = "Images/goback.png">
+                  <p id = "friend"> Messages </p>
+                  <!-- <div id = "messageBox"> -->
+                    <input type = "text" id = "searchMessages" placeholder="Search Messages">
+                  <!-- </div> -->
+                  <div id = "friend1"> </div>
+                  <img id = "compose" src = "Images/compose.png">
+              </div>
+              <div id = "textBox">
+
+              </div>
+              <!-- <div id = "typeMessage">        Type Message... </div> -->
+              <input id = "typeMessage" type = "text" placeholder="    Type Message...">
+              <img id = "send" src = "Images/send.png">
+
+            </div>
+           </div>
+          
+           <div class="dropdownLast">
+            <button onclick = "logoutDropdown()" class = "dropbutton"> <img id = "dropdown" src = "Images/dropdown.png"> </button>
+            <!-- <img onclick= "logoutDropdown()" id = "dropdown" src = "Images/dropdown.png"> -->
+            <div id="dropdownInfo" class="dropdown-content">
+              <a id = "logout" href="#Logout">logout</a>
+              <a id = "cancel" href="#cancel">cancel</a>
+            </div>
+           </div>
+
+           <p id = "online"> Online </p>
+           <div id = "verticalLineLeft"> </div>
+           <div id = "horizontalLineLeft"> </div>
+           <div id = "verticalLineRigth"> </div>
+           <div id = "horizontalLineMiddle"> </div>
+           <div id = "invite">
+             <button id = "inviteButton"> Invite people </button>
+           </div>
+
+
+           <!-- <p id = "username"> </p> -->
+       </div>
+   </div>
+
+   <script defer src="./JS/mainpage.js"></script>
+
+        
+</body>
+
+</html>
