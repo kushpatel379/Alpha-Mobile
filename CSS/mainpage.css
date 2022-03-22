@@ -1,6 +1,4 @@
-/* body{
-    height: 200px !important;
-} */
+/* 
 
 #mainPageColor{
     position: absolute;
@@ -9,19 +7,16 @@
     color: rgb(73, 190, 183);
     height: 94px;
     width: 100%;
-    /* z-index: -1; */
 }
 
 #search{
     position: absolute;
     margin-top: 15px;
     margin-left: 100px;
-    /* margin-bottom: 25px !important; */
     height: 56px;
     width: 400px;
     border-radius: 35px;
     z-index: 1;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     
 }
 
@@ -30,29 +25,18 @@
     font-size: 28px;
     margin-left: 1000px;
     margin-top: -50px;
-    /* z-index: 1; */
 }
 
-/* #searchdiv{
-    margin-top: 21px;
 
-} */
 
 #logoButton{
-    /* background:url(../Images/hop2itlogo.png) no-repeat;
-    position:absolute;
-    cursor:pointer;
-    border:none;
-    width: 160;
-    height: 55px;
-    z-index: -1; */
+    
     background-color: rgb(73, 190, 183);
     border: none;
 
 }
 
 #logo{
-    /* background-color: rgb(73, 190, 183); */
     margin-top: 21px;
     margin-left: 96px;
     height: 55px;
@@ -90,24 +74,10 @@
     height: 75px;
     width: 75px;
     cursor: pointer;
-    z-index: -1;    /*puts the image behind*/
+    z-index: -1;    
 
 }
-/* #dropdownLast{
-    position: absolute;
-    margin-top: 9px;
-    margin-left: 1125px;
-    height: 75px;
-    width: 75px;
-    cursor: pointer;
 
-} */
-
-/* #logoutDropdown{
-    position:absolute;
-    margin-top: -82px;
-    margin-left: 270px;
-} */
 
 
 
@@ -125,9 +95,7 @@
     margin-top: -82px;
     margin-left: 1375px;
     border-radius: 37px;
-    /* z-index: 1; */
-    /* visibility:collapse; */
-    /* opacity: 0.5 */
+    
   }
   
   .dropbutton:hover, .dropbutton:focus {
@@ -209,8 +177,6 @@
     margin-top: -82px;
     margin-left: 1290px;
     border-radius: 37px;
-    /* z-index: 1; */
-    /* visibility:collapse; */
 }
 
 .dropdownMiddle {
@@ -286,11 +252,9 @@
 }
 
 #friend1{
-    /* color: black; */
     background-color: rgb(222,222,222);
     position: absolute;
     margin-top: 110px;
-    /* margin-left: 100px; */
     width: 272px;
     height: 80px;
 }
@@ -369,8 +333,6 @@
     margin-top: -82px;
     margin-left: 1205px;
     border-radius: 37px;
-    /* z-index: 1; */
-    /* visibility:collapse; */
 }
 
 .dropdownFirst {
@@ -388,7 +350,6 @@
     margin-top: -82px !important;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    /* visibility: hidden; */
     border-radius: 10px;
 }
 
@@ -430,7 +391,6 @@
 
 
 #online{
-    /* position: absolute; */
     font-size: 36px;
     color: black;
     margin-top: 275px;
@@ -491,4 +451,4 @@
   
 .show {
     display: block;
-}
+} */
